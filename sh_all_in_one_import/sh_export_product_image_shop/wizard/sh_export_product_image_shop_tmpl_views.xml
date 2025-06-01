@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- PRODUCT.TEMPLATE  WIZARD -->
+    <record id="sh_export_product_image_shop_product_tmpl_wizard_form" model="ir.ui.view">
+        <field name="name">sh.export.product.image.shop.product.tmpl.wizard.form</field>
+        <field name="model">sh.export.product.image.shop.tmpl</field>
+        <field name="arch" type="xml">
+            <form string="Export Product Images">
+                <group>
+                    <group>
+                        <field name="file_name" />
+                        <field name="is_export_extra_product_media" />
+                        <field name="is_export_for_import" attrs="{'invisible': [('is_export_extra_product_media','=', False )]}" />
+
+                        <field name="file" readonly="1" filename="zip_file_name" />
+                        <field name="zip_file_name" invisible="1" />
+                    </group>
+
+                    <field name="product_tmpl_ids" />
+                </group>
+
+                <footer>
+                    <button name="action_export" string="Export" type="object" class="oe_highlight" />
+                    <button string="Cancel" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="sh_export_product_image_shop_product_tmpl_action" model="ir.actions.act_window">
+        <field name="name">Export Images eCommerce</field>
+        <field name="res_model">sh.export.product.image.shop.tmpl</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="product.model_product_template" />
+        <field name="binding_view_types">form,list</field>
+        <field name="groups_id" eval="[(4, ref('sh_all_in_one_import.sh_export_product_image_shop_group'))]" />
+    </record>
+</odoo>

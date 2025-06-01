@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- SALE ORDER MENU -->
+    <menuitem
+        name="Import Product Variants eCommerce"
+        action="sh_import_product_var_shop_action"
+        id="sh_import_product_var_shop_menu"
+        parent="sale.product_menu_catalog"
+        groups="sh_all_in_one_import.sh_import_product_var_shop_group"
+    />
+</odoo>

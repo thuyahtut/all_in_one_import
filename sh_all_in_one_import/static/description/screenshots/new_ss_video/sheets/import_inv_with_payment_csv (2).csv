@@ -1,0 +1,5 @@
+Number,Customer/Vendor,Invoice/Bill Date,Account,Product,Description,Ordered Qty,Unit of Measure,Unit Price,Taxes,Journal,Amount,Payment Date,Payment No.,Selesperson,Discount
+INV001,Gemini Furniture,2023-11-01,400000,FURN_6666,This is the screen,10,Units,456,15%,"Bank,Cash","100,200",2023-11-01,PA001,Mitchell Admin,1
+INV001,,,400000,E-COM11,This is the cabinet,20,Units,123,15%,,,,,,2
+INV002,Azure Interior,2023-11-01,400000,FURN_6666,This is the screen,30,Units,444,15%,"Bank,Cash","300,400",2023-11-01,PA002,Marc Demo,3
+INV002,,,400000,E-COM11,This is the cabinet,40,Units,555,15%,,,,,,4

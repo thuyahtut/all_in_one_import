@@ -1,0 +1,1633 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_all_in_one_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 07:09+0000\n"
+"PO-Revision-Date: 2020-10-15 07:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_ail_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_attenance_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bom_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bsl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_timesheet_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_int_transfer_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inv_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inventory_with_lot_serial_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_journal_item_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_lead_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_po_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pos_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_reordering_rules_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_so_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_sol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_supplier_info_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_user_wizard
+msgid "<i class=\"fa fa-download\"/> CSV file"
+msgstr "<i class=\"fa fa-download\"/> CSV-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_ail_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_attenance_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bom_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bsl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_timesheet_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_int_transfer_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inv_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inventory_with_lot_serial_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_journal_item_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_lead_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_po_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pos_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_reordering_rules_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_so_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_sol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_supplier_info_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_user_wizard
+msgid "<i class=\"fa fa-download\"/> Excel file"
+msgstr "<i class=\"fa fa-download\"/> Excel-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_iiz_import_img_zip_wizard_form
+msgid "<i class=\"fa fa-download\"/> Zip file"
+msgstr "<i class=\"fa fa-download\"/> Zip-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_task_wizard
+msgid "<i class=\"fa fa-download\"/>Default CSV file"
+msgstr "<i class=\"fa fa-download\"/>Standard-CSV-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_task_wizard
+msgid "<i class=\"fa fa-download\"/>Default Excel file"
+msgstr "<i class=\"fa fa-download\"/>Standard Excel-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_task_wizard
+msgid "<i class=\"fa fa-download\"/>User/Project Wise CSV file"
+msgstr "<i class=\"fa fa-download\"/>Benutzer / Projekt Wise CSV-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_task_wizard
+msgid "<i class=\"fa fa-download\"/>User/Project Wise Excel file"
+msgstr "<i class=\"fa fa-download\"/>Benutzer / Projekt Wise Excel-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_iiz_import_img_zip_wizard_form
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_ail_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_attenance_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bom_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bsl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_timesheet_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_int_transfer_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inv_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inventory_with_lot_serial_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_journal_item_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_lead_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_po_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pos_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_reordering_rules_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_so_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_sol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_supplier_info_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_task_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_user_wizard
+msgid "<strong>Download Sample:</strong>"
+msgstr "<strong>Download-Beispiel:</strong>"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_action_all_in_one_import_kanban
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_menu_all_import
+#: model:res.groups,name:sh_all_in_one_import.sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.all_import_form_view
+msgid "All Import"
+msgstr "alle Import"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_sh_all_in_one_import_kanban
+msgid "All In One Import Kanban"
+msgstr "All In One Import Kanban"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_ail_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_attenance_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bom_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bsl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_timesheet_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_int_transfer_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inv_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inventory_with_lot_serial_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_journal_item_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_lead_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_po_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pos_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_reordering_rules_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_so_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_sol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_supplier_info_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_task_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_user_wizard
+msgid "Apply"
+msgstr "Anwenden"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__inv_no_type__as_per_sheet
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_po_wizard__order_no_type__as_per_sheet
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pos_wizard__order_no_type__as_per_sheet
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_so_wizard__order_no_type__as_per_sheet
+msgid "As per sheet"
+msgstr "Wie pro Blatt"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__user_id
+msgid "Assigned to"
+msgstr "Zugewiesen an"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__attendance_by
+msgid "Attendance Import Type"
+msgstr "Die Teilnahme Importtyp"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__inv_no_type__auto
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_po_wizard__order_no_type__auto
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pos_wizard__order_no_type__auto
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_so_wizard__order_no_type__auto
+msgid "Auto"
+msgstr "Auto"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__is_confirm_order
+msgid "Auto Confirm Order?"
+msgstr "Auto Bestellung bestätigen?"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__is_confirm_sale
+msgid "Auto Confirm Sale?"
+msgstr "Auto Bestätigen Sale?"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__is_validate
+msgid "Auto Post?"
+msgstr "Auto Post?"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_attendance_wizard__attendance_by__badge
+msgid "Badge"
+msgstr "Abzeichen"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_account_bank_statement
+msgid "Bank Statement"
+msgstr "Kontoauszug"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_ail_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bom_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_int_transfer_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inventory_with_lot_serial_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_po_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pol_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pos_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_img_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_mb_wizard__product_update_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_wizard__product_update_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_mb_wizard__product_update_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_wizard__product_update_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_reordering_rules_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_so_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_sol_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_supplier_info_wizard__product_by__barcode
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__product_by__barcode
+msgid "Barcode"
+msgstr "Strichcode"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__bom_type
+msgid "BoM Type"
+msgstr "BoM Typ"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_task_wizard__import_method__default
+msgid "By Default"
+msgstr "Standardmäßig"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_ail_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_attendance_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bom_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bsl_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_emp_img_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_emp_timesheet_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_int_transfer_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inventory_with_lot_serial_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_journal_item_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_lead_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_partner_img_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_partner_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_po_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pol_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pos_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_img_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_mb_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_mb_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_reordering_rules_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_so_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_sol_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_supplier_info_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_task_wizard__import_type__csv
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_user_wizard__import_type__csv
+msgid "CSV File"
+msgstr "CSV-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_iiz_import_img_zip_wizard_form
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_ail_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_attenance_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bom_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bsl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_timesheet_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_int_transfer_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inv_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inventory_with_lot_serial_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_journal_item_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_lead_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_po_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pos_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_img_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_mb_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_reordering_rules_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_so_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_sol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_supplier_info_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_task_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_user_wizard
+msgid "Cancel"
+msgstr "Stornieren"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__company_id
+msgid "Company"
+msgstr "Unternehmen"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__is_create_customer
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__is_create_customer
+msgid "Create Customer?"
+msgstr "Erstellen Kunde?"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__is_create_lot
+msgid "Create Lot/Serial Number if never exist?"
+msgstr "Erstellen Lot / Seriennummer, wenn es nie geben?"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_reordering_rules_wizard__method__create
+msgid "Create New Reordering Rules"
+msgstr "Create New Neuordnen Regeln"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_mb_wizard__method__create
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_wizard__method__create
+msgid "Create Product"
+msgstr "erstellen Sie Artikel"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_mb_wizard__method__create
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_wizard__method__create
+msgid "Create Product Variants"
+msgstr "Erstellen Sie Produktvarianten"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__is_create_vendor
+msgid "Create Vendor?"
+msgstr "Kreditor anlegen?"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_mb_wizard__method__write
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_wizard__method__write
+msgid "Create or Update Product"
+msgstr "Erstellen oder aktualisieren Produkt"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_mb_wizard__method__write
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_wizard__method__write
+msgid "Create or Update Product Variants"
+msgstr "Erstellen oder aktualisieren Produktvarianten"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_all_in_one_import_kanban__create_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_all_in_one_import_kanban__create_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__partner_by
+msgid "Customer By"
+msgstr "Kundens By"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__invoice_type__ccn
+msgid "Customer Credit Note"
+msgstr "Kunden Gutschrift"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__invoice_type__inv
+msgid "Customer Invoice"
+msgstr "Kundenrechnung"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__location_dest_id
+msgid "Destination Location"
+msgstr "Zielort"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_account_bank_statement__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_account_move__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sale_order__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_all_in_one_import_kanban__display_name
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__img_for__employee
+msgid "Employee"
+msgstr "Mitarbeiter"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__emp_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__employee_by
+msgid "Employee By"
+msgstr "Mitarbeiter von"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_attendance_wizard__attendance_by__employee_id
+msgid "Employee ID"
+msgstr "Mitarbeiter-ID"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_ail_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_attendance_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bom_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bsl_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_emp_img_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_emp_timesheet_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_int_transfer_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inventory_with_lot_serial_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_journal_item_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_lead_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_partner_img_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_partner_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_po_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pol_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pos_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_img_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_mb_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_mb_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_reordering_rules_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_so_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_sol_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_supplier_info_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_task_wizard__import_type__excel
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_user_wizard__import_type__excel
+msgid "Excel File"
+msgstr "Excel-Datei"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__file
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__file
+msgid "File"
+msgstr "Datei"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__group_import_type
+msgid "Group Import Type"
+msgstr "Group Import Typ"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_account_bank_statement__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_account_move__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_purchase_order__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sale_order__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_all_in_one_import_kanban__id
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__id
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_emp_img_wizard__emp_by__db_id
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_partner_img_wizard__partner_by__db_id
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__employee_by__id
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__partner_by__id
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__product_by__id
+msgid "ID"
+msgstr "ICH WÜRDE"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_user_wizard__group_import_type__id
+msgid "Id"
+msgstr "Ich würde"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_emp_img_wizard__emp_by__id_no
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__employee_by__identification_id
+msgid "Identification No"
+msgstr "Identifikationsnummer"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__img_for
+msgid "Images For"
+msgstr "Fuer"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_iiz_import_img_zip_wizard_form
+msgid "Import"
+msgstr "Importieren"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_ail_wizard
+msgid "Import AIL Wizard"
+msgstr "Import Wizard AIL"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_attenance_wizard
+msgid "Import Attendaces"
+msgstr "Import Attendaces"
+
+#. module: sh_all_in_one_import
+#: model:res.groups,name:sh_all_in_one_import.sh_import_attendance_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Attendance"
+msgstr "Import-Anwesenheits"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_attendance_wizard
+msgid "Import Attendance Wizard"
+msgstr "Import-Anwesenheits-Assistent"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_attendance_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_attendance_wizard_menu
+msgid "Import Attendances"
+msgstr "Import Anwesenheiten"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bom_wizard
+msgid "Import BOM"
+msgstr "Import BOM"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_bsl_action
+msgid "Import Bank Statement Line"
+msgstr "Import Bank Statement Linie"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_bsl_wizard
+msgid "Import Bank Statement Line Wizard"
+msgstr "Import Bank Statement Zeile der Assistent"
+
+#. module: sh_all_in_one_import
+#: model:res.groups,name:sh_all_in_one_import.sh_import_bsl_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_bsl_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_inherit_account_bank_statement_form
+msgid "Import Bank Statement Lines"
+msgstr "Import Bank Statement Linien"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_bom_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_bom_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_bom_group
+msgid "Import Bill of Materials"
+msgstr "Import Bill of Materials"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_bom_wizard
+msgid "Import Bill of Materials Wizard"
+msgstr "Import Bill of Materials-Assistent"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_partner_img_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_partner_img_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_partner_img_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_img_wizard
+msgid "Import Customer Image"
+msgstr "Import Kundenbild"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_partner_img_wizard
+msgid "Import Customer or Supplier Image Wizard"
+msgstr "Import Kunden oder Lieferanten Bild-Assistent"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_partner_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_partner_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_partner_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_partner_wizard
+msgid "Import Customers/Suppliers"
+msgstr "Import Kunden / Lieferanten"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_emp_img_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_emp_img_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_emp_img_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_img_wizard
+msgid "Import Employee Image"
+msgstr "Import Mitarbeiterbild"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_emp_img_wizard
+msgid "Import Employee Image Wizard"
+msgstr "Import Mitarbeiter Bild-Assistent"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_emp_timesheet_action
+#: model:res.groups,name:sh_all_in_one_import.sh_import_emp_timesheet_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_emp_timesheet_wizard
+msgid "Import Employee Timesheet"
+msgstr "Import Mitarbeiterzeiterfassung"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_emp_timesheet_wizard
+msgid "Import Employee Timesheet Wizard"
+msgstr "Import Mitarbeiter Timesheet-Assistenten"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__import_type
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__import_type
+msgid "Import File Type"
+msgstr "Import Dateityp"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_inv_wizard
+msgid "Import INV"
+msgstr "Import INV"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_iiz_import_img_zip_wizard_form
+msgid "Import Image Form Zip File"
+msgstr "Import Bild-Form Zip-Datei"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_iiz_import_img_zip_action
+#: model:res.groups,name:sh_all_in_one_import.sh_iiz_import_img_zip_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Images From Zip File"
+msgstr "Importieren von Bildern von Zip-Datei"
+
+#. module: sh_all_in_one_import
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_iiz_import_img_zip_menuitem
+msgid "Import Images from Zip File"
+msgstr "Import Bilder von Zip-Datei"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_sh_iiz_import_img_zip_wizard
+msgid "Import Images from zip file"
+msgstr "Import Bilder von Zip-Datei"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Int Transfer"
+msgstr "Import Int Übertragung"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_int_transfer_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_int_transfer_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_int_transfer_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_int_transfer_wizard
+msgid "Import Internal Transfer"
+msgstr "Import Interner Transfer Wizard"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_int_transfer_wizard
+msgid "Import Internal Transfer Wizard"
+msgstr "Import Inventar Mit Lot / Seriennummer"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Inventory With Lot/Serial No"
+msgstr "Import Inventar Mit Lot / Seriennummer"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_inventory_with_lot_serial_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_inventory_with_lot_serial_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_inventory_with_lot_serial_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inventory_with_lot_serial_wizard
+msgid "Import Inventory With Lot/Serial Number"
+msgstr "Import Inventar Mit vielen oder Seriennummer Assistenten"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_inventory_with_lot_serial_wizard
+msgid "Import Inventory With lot or serial number wizard"
+msgstr "Import Inventar Mit vielen oder Seriennummer Assistenten"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_inv_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.menu_action_invoice_tree1
+#: model:res.groups,name:sh_all_in_one_import.sh_import_inv_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_inv_wizard
+msgid "Import Invoice"
+msgstr "Import Rechnung"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_ail_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_journal_item_wizard
+msgid "Import Invoice Lines"
+msgstr "Import Rechnungsposten"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_ail_action
+#: model:res.groups,name:sh_all_in_one_import.sh_import_ail_group
+msgid "Import Invoice/Bill/Credit note Lines"
+msgstr "Import Rechnung / Bill / Gutschrift Linien"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_inherit_invoice_form_for_import
+msgid "Import Invoice/Credit note Lines"
+msgstr "Import Rechnung / Gutschrift Linien"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_journal_item_wizard
+msgid "Import Journal Item"
+msgstr "Import Journal Artikel"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_journal_item_action
+#: model:res.groups,name:sh_all_in_one_import.sh_import_journal_item_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_inherit_view_move_form_for_import
+msgid "Import Journal Items"
+msgstr "Artikel Import Journal"
+
+#. module: sh_all_in_one_import
+#: model:res.groups,name:sh_all_in_one_import.sh_import_lead_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Lead"
+msgstr "Import Blei"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_lead_wizard
+msgid "Import Lead Wizard"
+msgstr "Import Lead-Assistent"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_lead_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_lead_menu
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_lead_wizard
+msgid "Import Leads"
+msgstr "Import Leads"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__import_method
+msgid "Import Method"
+msgstr "Importmethode"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import PO"
+msgstr "Import PO"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import POS"
+msgstr "Import POS"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_pos_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_pos_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_pos_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pos_wizard
+msgid "Import POS Order"
+msgstr "Import POS Bestellen"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_pos_wizard
+msgid "Import POS Order Wizard"
+msgstr "Import POS Bestellassistenten"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Partner"
+msgstr "Import Partner"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Partner Image"
+msgstr "Import Partner Bild"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Product"
+msgstr "Import Artikel"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_product_img_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_product_img_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_product_img_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_img_wizard
+msgid "Import Product Image"
+msgstr "Import Product Image"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_product_img_wizard
+msgid "Import Product Images Wizard"
+msgstr "Import Produktbilder Wizard"
+
+#. module: sh_all_in_one_import
+#: model:res.groups,name:sh_all_in_one_import.sh_import_product_tmpl_group
+msgid "Import Product Template"
+msgstr "Import Artikel Vorlage"
+
+#. module: sh_all_in_one_import
+#: model:res.groups,name:sh_all_in_one_import.sh_import_product_tmpl_mb_group
+msgid "Import Product Template Multi Barcodes"
+msgstr "Import Artikel Vorlage Multi Barcodes"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_product_tmpl_action
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_wizard
+msgid "Import Product Templates"
+msgstr "Import Produktvorlagen"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_product_tmpl_mb_action
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_tmpl_mb_wizard
+msgid "Import Product Templates Multi Barcodes"
+msgstr "Import Artikel Vorlagen Multi Barcodes"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_product_var_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_product_var_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_product_var_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_wizard
+msgid "Import Product Variants"
+msgstr "Import Produktvarianten"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_product_var_mb_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_product_var_mb_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_product_var_mb_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_product_var_mb_wizard
+msgid "Import Product Variants Multi Barcodes"
+msgstr "Import Artikel varient Wizard"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_product_var_mb_wizard
+#: model:ir.model,name:sh_all_in_one_import.model_import_product_var_wizard
+msgid "Import Product Varient Wizard"
+msgstr "Import Artikel varient Wizard"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Product variant"
+msgstr "Import Produktvariante"
+
+#. module: sh_all_in_one_import
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_product_tmpl_menu
+msgid "Import Products"
+msgstr "Produkte importieren"
+
+#. module: sh_all_in_one_import
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_product_tmpl_mb_menu
+msgid "Import Products Multi Barcodes"
+msgstr "Import Produkte Multi Barcodes"
+
+#. module: sh_all_in_one_import
+#: model:res.groups,name:sh_all_in_one_import.sh_group_import_project_task
+msgid "Import Project Task"
+msgstr "Import Projektaufgabe"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_po_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_po_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_po_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_po_wizard
+msgid "Import Purchase Order"
+msgstr "Import Bestellung"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_pol_wizard
+msgid "Import Purchase Order Line Wizard"
+msgstr "Import Bestellungszeilen Wizard"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_pol_action
+#: model:res.groups,name:sh_all_in_one_import.sh_import_pol_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_pol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_inherit_purchase_order_form_for_import
+msgid "Import Purchase Order Lines"
+msgstr "Import Bestellpositionen"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_po_wizard
+msgid "Import Purchase Order Wizard"
+msgstr "Import Bestellung Wizard"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import Reordering Rule"
+msgstr "Import Neuordnen Regel"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_reordering_rules_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_reordering_rules_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_reordering_rules_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_reordering_rules_wizard
+msgid "Import Reordering Rules"
+msgstr "Import Neuordnen Regeln"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_reordering_rules_wizard
+msgid "Import Reordering Rules Wizard"
+msgstr "Import Neuordnen Regelassistent"
+
+#. module: sh_all_in_one_import
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+msgid "Import SO"
+msgstr "Import SO"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_so_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_so_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_so_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_so_wizard
+msgid "Import Sale Order"
+msgstr "Import Verkauf Bestellung"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_sol_wizard
+msgid "Import Sale Order Line Wizard"
+msgstr "Import Verkauf Order Line Wizard"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_sol_action
+#: model:res.groups,name:sh_all_in_one_import.sh_import_sol_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_sol_wizard
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_inherit_view_order_form_for_import
+msgid "Import Sale Order Lines"
+msgstr "Import Verkauf Auftragspositionen"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_so_wizard
+msgid "Import Sale Order Wizard"
+msgstr "Import Verkauf Bestellassistenten"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_supplier_info_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_supplier_info_menu
+#: model:res.groups,name:sh_all_in_one_import.sh_import_supplier_info_group
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_supplier_info_wizard
+msgid "Import Supplier Info"
+msgstr "Import Lieferant Info"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_supplier_info_wizard
+msgid "Import Supplier Info Wizard"
+msgstr "Import Lieferant Info-Assistent"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_action_import_task
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_menu_import_task
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_task_wizard
+msgid "Import Task"
+msgstr "Importaufgabe"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_task_wizard
+msgid "Import Task Wizard"
+msgstr "Import Task Wizard"
+
+#. module: sh_all_in_one_import
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_emp_timesheet_menu
+msgid "Import Timesheet"
+msgstr "Import Timesheet"
+
+#. module: sh_all_in_one_import
+#: model:res.groups,name:sh_all_in_one_import.sh_import_user_group
+msgid "Import User"
+msgstr "Benutzer importieren"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_user_wizard
+msgid "Import User Wizard"
+msgstr "Import-Benutzer-Assistent"
+
+#. module: sh_all_in_one_import
+#: model:ir.actions.act_window,name:sh_all_in_one_import.sh_import_user_action
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_import_user_wizard_menu
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_all_in_one_import_kanban
+#: model_terms:ir.ui.view,arch_db:sh_all_in_one_import.sh_import_user_wizard
+msgid "Import Users"
+msgstr "Benutzer importieren"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_partner_wizard
+msgid "Import customer or supplier wizard"
+msgstr "Import Kunden oder Lieferanten Assistenten"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_import_product_tmpl_mb_wizard
+#: model:ir.model,name:sh_all_in_one_import.model_import_product_tmpl_wizard
+msgid "Import product template wizard"
+msgstr "Import Produktvorlage Assistent"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_ail_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bom_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_int_transfer_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inventory_with_lot_serial_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_partner_img_wizard__partner_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_po_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pol_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pos_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_img_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_mb_wizard__product_update_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_tmpl_wizard__product_update_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_mb_wizard__product_update_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_wizard__product_update_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_reordering_rules_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_so_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_sol_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_supplier_info_wizard__product_by__int_ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__partner_by__ref
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__product_by__default_code
+msgid "Internal Reference"
+msgstr "Interne Referenz"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_product_var/wizard/import_product_var_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_var_mb/wizard/import_product_var_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_users/wizard/import_user_wizard.py:0
+#, python-format
+msgid "Invalid cell value at row %(row)s, column %(col)s: %(cell_value)s"
+msgstr "Ungültige Zellenwert in Zeile% (row) s, Spalte% (col) s:% (CELL_VALUE) s"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__name
+msgid "Inventory Reference"
+msgstr "Inventory-Referenz"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__invoice_type
+msgid "Invoicing Type"
+msgstr "Fakturierungsart"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__is_customer
+msgid "Is a Customer"
+msgstr "Ist ein Kunde"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__is_supplier
+msgid "Is a Vendor"
+msgstr "Ist ein Anbieter"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_account_move
+msgid "Journal Entry"
+msgstr "Tagebucheintrag"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bom_wizard__bom_type__kit
+msgid "Kit"
+msgstr "Ausrüstung"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_account_bank_statement____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_account_move____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sale_order____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_all_in_one_import_kanban____last_update
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_all_in_one_import_kanban__write_uid
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_attendance_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bsl_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_img_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_emp_timesheet_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_journal_item_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_lead_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_img_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_partner_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_user_wizard__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_all_in_one_import_kanban__write_date
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: sh_all_in_one_import
+#: model:ir.ui.menu,name:sh_all_in_one_import.sh_lead_menu
+msgid "Leads"
+msgstr "Führt"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__location_id
+msgid "Location"
+msgstr "Ort"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bom_wizard__bom_type__mtp
+msgid "Manufacture this product"
+msgstr "Herstellung dieses Produkts"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__method
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__method
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__method
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__method
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__method
+msgid "Method"
+msgstr "Methode"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_all_in_one_import_kanban__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_ail_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_bom_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_emp_img_wizard__emp_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_int_transfer_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inventory_with_lot_serial_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_partner_img_wizard__partner_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_po_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pol_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_pos_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_img_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_mb_wizard__product_update_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_var_wizard__product_update_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_reordering_rules_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_so_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_sol_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_supplier_info_wizard__product_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_user_wizard__group_import_type__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__employee_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__partner_by__name
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__product_by__name
+msgid "Name"
+msgstr "Name"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__inv_no_type
+msgid "Number"
+msgstr "Nummer"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__order_no_type
+msgid "POS Order Number"
+msgstr "POS Bestellnummer"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__img_for__partner
+msgid "Partner"
+msgstr "Partner"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__partner_by
+msgid "Partner By"
+msgstr "Partner von"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__img_for__product
+msgid "Product"
+msgstr "Produkt"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_ail_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_bom_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inv_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_inventory_with_lot_serial_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pol_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_pos_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_reordering_rules_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_sol_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__product_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__product_by
+msgid "Product By"
+msgstr "Produkt von"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_img_wizard__product_model
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_supplier_info_wizard__product_model
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__product_model
+msgid "Product Model"
+msgstr "Produkt-Modell"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_img_wizard__product_model__pro_tmpl
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_supplier_info_wizard__product_model__pro_tmpl
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__product_model__pro_tmpl
+msgid "Product Template"
+msgstr "Produktvorlage"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__product_update_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_wizard__product_update_by
+msgid "Product Update By"
+msgstr "Produkt-Update von"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__product_update_by
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_wizard__product_update_by
+msgid "Product Variant Update By"
+msgstr "Produktvariante Aktualisierung Nach"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_product_img_wizard__product_model__pro_var
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_supplier_info_wizard__product_model__pro_var
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__sh_iiz_import_img_zip_wizard__product_model__pro_var
+msgid "Product Variants"
+msgstr "Produktvarianten"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_task_wizard__project_id
+msgid "Project"
+msgstr "Projekt"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_task_wizard__import_method__proj_user_wise
+msgid "Project and user wise import"
+msgstr "Projekt- und Benutzer weise Import"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_purchase_order
+msgid "Purchase Order"
+msgstr "Bestellung"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_so_wizard__order_no_type
+msgid "Quotation/Order Number"
+msgstr "Zitat / Bestellnummer"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_po_wizard__order_no_type
+msgid "Reference Number"
+msgstr "Referenznummer"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_tmpl_mb_wizard__update_existing
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_product_var_mb_wizard__update_existing
+msgid "Remove Existing"
+msgstr "entfernen Bestehende"
+
+#. module: sh_all_in_one_import
+#: model:ir.model,name:sh_all_in_one_import.model_sale_order
+msgid "Sales Order"
+msgstr "Kundenauftrag"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__scheduled_date
+msgid "Scheduled Date"
+msgstr "Geplantes Datum"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_project_task/wizard/import_task_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_project_task/wizard/import_task_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_project_task/wizard/import_task_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_project_task/wizard/import_task_wizard.py:0
+#, python-format
+msgid "Something went wrong"
+msgstr "Etwas ist schief gelaufen"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_ail/wizard/import_ail_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_attendance/wizard/import_attendance_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_bom/wizard/import_bom_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_bsl/wizard/import_bsl_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_inv/wizard/import_inv_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_lead/wizard/import_lead_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_partner/wizard/import_partner_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_pol/wizard/import_pol_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_img/wizard/import_product_img_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_tmpl/wizard/import_product_tmpl_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_tmpl_mb/wizard/import_product_tmpl_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_project_task/wizard/import_task_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_project_task/wizard/import_task_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_sol/wizard/import_sol_wizard.py:0
+#, python-format
+msgid "Sorry, Your csv file does not match with our format"
+msgstr "Sorry, Ihre CSV-Datei mit unserem Format stimmt nicht überein"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_emp_img/wizard/import_emp_img_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_int_transfer/wizard/import_int_transfer_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_inventory_with_lot_serial/wizard/import_inventory_with_lot_serial_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_journal_item/wizard/import_journal_item_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_partner_img/wizard/import_partner_img_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_po/wizard/import_po_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_pos/wizard/import_pos_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_reordering_rules/wizard/import_reordering_rule_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_so/wizard/import_so_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_supplier_info/wizard/import_supplier_info_wizard.py:0
+#, python-format
+msgid "Sorry, Your csv file does not match with our format "
+msgstr "Sorry, Ihre CSV-Datei mit unserem Format stimmt nicht überein"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_emp_timesheet/wizard/import_emp_timesheet_wizard.py:0
+#, python-format
+msgid "Sorry, Your csv file does not match with our format. "
+msgstr "Sorry, Ihre CSV-Datei mit unserem Format stimmt nicht überein."
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_product_var/wizard/import_product_var_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_var_mb/wizard/import_product_var_wizard.py:0
+#, python-format
+msgid "Sorry, Your csv or excel file does not match with our format"
+msgstr "Sorry, Ihre CSV- oder Excel-Datei paßt nicht mit unserem Format"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_users/wizard/import_user_wizard.py:0
+#, python-format
+msgid "Sorry, Your csv/Excel file does not match with our format"
+msgstr "Sorry, Ihre CSV / Excel-Datei passen nicht mit unserem Format"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_ail/wizard/import_ail_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_attendance/wizard/import_attendance_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_bom/wizard/import_bom_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_bsl/wizard/import_bsl_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_inv/wizard/import_inv_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_journal_item/wizard/import_journal_item_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_lead/wizard/import_lead_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_partner/wizard/import_partner_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_pol/wizard/import_pol_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_img/wizard/import_product_img_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_tmpl/wizard/import_product_tmpl_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_tmpl_mb/wizard/import_product_tmpl_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_project_task/wizard/import_task_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_project_task/wizard/import_task_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_sol/wizard/import_sol_wizard.py:0
+#, python-format
+msgid "Sorry, Your excel file does not match with our format"
+msgstr "Sorry, Ihre Excel-Datei paßt nicht mit unserem Format"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_emp_img/wizard/import_emp_img_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_int_transfer/wizard/import_int_transfer_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_inventory_with_lot_serial/wizard/import_inventory_with_lot_serial_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_partner_img/wizard/import_partner_img_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_po/wizard/import_po_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_pos/wizard/import_pos_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_reordering_rules/wizard/import_reordering_rule_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_so/wizard/import_so_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_supplier_info/wizard/import_supplier_info_wizard.py:0
+#, python-format
+msgid "Sorry, Your excel file does not match with our format "
+msgstr "Sorry, Ihre Excel-Datei paßt nicht mit unserem Format"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_emp_timesheet/wizard/import_emp_timesheet_wizard.py:0
+#, python-format
+msgid "Sorry, Your excel file does not match with our format. "
+msgstr "Sorry, Ihre Excel-Datei mit unserem Format stimmt nicht überein."
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_import_int_transfer_wizard__location_id
+msgid "Source Location"
+msgstr "Quellort"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_reordering_rules_wizard__method__update
+msgid "Update Existing Reordering Rules"
+msgstr "Update des bestehenden Neuordnen Regeln"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__invoice_type__bill
+msgid "Vendor Bill"
+msgstr "Vendor Bill"
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields.selection,name:sh_all_in_one_import.selection__import_inv_wizard__invoice_type__vcn
+msgid "Vendor Credit Note"
+msgstr "Vendor Gutschrift"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_int_transfer/wizard/import_int_transfer_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_inventory_with_lot_serial/wizard/import_inventory_with_lot_serial_wizard.py:0
+#, python-format
+msgid "You must define a warehouse for the company: %s."
+msgstr "Sie müssen ein Lager für das Unternehmen definiert werden:% s."
+
+#. module: sh_all_in_one_import
+#: model:ir.model.fields,field_description:sh_all_in_one_import.field_sh_iiz_import_img_zip_wizard__zip_file
+msgid "Zip File"
+msgstr "Zip-Datei"
+
+#. module: sh_all_in_one_import
+#: code:addons/sh_all_in_one_import/sh_import_product_var/wizard/import_product_var_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_product_var_mb/wizard/import_product_var_wizard.py:0
+#: code:addons/sh_all_in_one_import/sh_import_users/wizard/import_user_wizard.py:0
+#, python-format
+msgid "unknown error code %s"
+msgstr "unbekannt Fehlercode% s"

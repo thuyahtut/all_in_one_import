@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_po_inherit_form_view" model="ir.ui.view">
+        <field name="name">sh.import.store</field>
+        <field name="model">sh.import.store</field>
+        <field name="inherit_id" ref="sh_import_base.sh_import_Store_form" />
+        <field name="arch" type="xml">
+            <field name="sh_file" position="after">
+                <field name="sh_import_po_boolean" invisible="1"/>
+            </field>
+            <xpath expr="//notebook/page[@name='import_fields']/group[@name='limit']" position="before">
+                <group attrs="{'invisible':[('sh_import_po_boolean','=',False)]}">
+                    <group>
+                        <field name="sh_import_po_type" widget="radio" />
+                        <field name="sh_import_po_product_by" widget="radio" />
+                        <field name="sh_import_po_unit_price" widget="radio" />
+                        <field name="sh_import_po_is_create_vendor" />
+                        <field name="sh_import_po_partner_by" widget="radio" />
+                        <field name="sh_import_po_is_confirm_order" invisible="1"/>
+                        <field name="sh_import_po_order_no_type" widget="radio" />
+                        <field name="total_done_po" invisible="1"/>
+                        <field name="running_po" invisible="1"/>
+                    </group>
+                </group>    
+            </xpath>
+        </field>
+    </record>
+</odoo>

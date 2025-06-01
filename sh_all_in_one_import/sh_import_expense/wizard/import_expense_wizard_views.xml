@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="sh_import_expense_wizard" model="ir.ui.view">
+        <field name="name">sh.import.expense.wizard</field>
+        <field name="model">import.expense.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Import Expense">
+                <group>
+                    <group>
+                        <field name="import_type" widget="radio" />
+                        <field name="file" />
+                    </group>
+                    <group>
+                        <field name="expense_type" widget="radio"/>
+                        <field name="employee_type" widget="radio"/>
+                        <field name="product_type" widget="radio"/>
+                    </group>                    
+                </group>
+                <footer>
+                    <button name="import_expense_apply" string="Apply" type="object" class="btn-primary" />
+                    <button string="Cancel" class="btn-default" special="cancel" />
+
+                    <div class="float-md-end">
+                        <strong>Download Sample:</strong>
+                        <!-- Expense -->
+                        <a
+                            role="button"
+                            href="/sh_all_in_one_import/static/csv/hr_expense.csv"
+                            class="btn-primary"
+                            attrs = "{'invisible' : [('expense_type', '=', 'expense_sheet')]}"
+                            style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;"
+                        >
+                            <i class="fa fa-download" /> Expense CSV file
+                        </a>
+                        <a role="button" href="/sh_all_in_one_import/static/xls/hr_expense.xls" attrs = "{'invisible' : [('expense_type', '=', 'expense_sheet')]}" class="btn-primary" style="font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;">
+                            <i class="fa fa-download" /> Expense Excel file
+                        </a>
+
+                        <!-- Expense sheet -->
+                        <a
+                            role="button"
+                            href="/sh_all_in_one_import/static/csv/hr_expense_sheet.csv"
+                            class="btn-primary"
+                            attrs = "{'invisible' : [('expense_type', '=', 'expense')]}"
+                            style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;"
+                        >
+                            <i class="fa fa-download" /> Expense sheet CSV file
+                        </a>
+                        <a role="button" href="/sh_all_in_one_import/static/xls/hr_expense_sheet.xls" attrs = "{'invisible' : [('expense_type', '=', 'expense')]}" class="btn-primary" style="font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;">
+                            <i class="fa fa-download" /> Expense Sheet Excel file
+                        </a>
+                    </div>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="sh_import_expense_action" model="ir.actions.act_window">
+        <field name="name">Import Expense</field>
+        <field name="res_model">import.expense.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="sh_import_expense_wizard" />
+        <field name="target">new</field>
+    </record>
+
+</odoo>

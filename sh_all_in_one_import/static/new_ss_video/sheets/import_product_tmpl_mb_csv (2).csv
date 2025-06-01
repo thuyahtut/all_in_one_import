@@ -1,0 +1,4 @@
+Name,Can be Sold?,Can be Purchased?,Product Type,Category,Internal Reference,Barcode,Sales Price,Cost,Unit of Measure,Purchase Unit of Measure,Weight,Volume,Customer Taxes,Vendor Taxes,Invoicing Policy,Description for Customers,Quantity On Hand,image path/url,Multi Barcodes
+Mouse,TRUE,TRUE,Storable Product,All / Saleable / Software,E-COM101,101,1200,1000,Units,Units,30,40,,,Delivered quantities,This Mouse is Good .,,,"M_101,M_102"
+Virtual Home Staging,TRUE,TRUE,Storable Product,All / Saleable / Services,E-COM102,102,1500,1000,cm,cm,25,26,,,,Good Product.,,,"VHS_201,VHS_202"
+Virtual Interior Design,TRUE,TRUE,Service,All / Saleable / Services,E-COM103,103,1800,1000,mm,mm,35,36,,,,Good Design.,,,"VID_301,VID_302"

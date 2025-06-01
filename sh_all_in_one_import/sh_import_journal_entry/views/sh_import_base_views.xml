@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_base_import_journal_entry_form" model="ir.ui.view">
+        <field name="name">sh.import.base</field>
+        <field name="model">sh.import.base</field>
+        <field name="inherit_id" ref="sh_import_base.sh_import_base_form" />
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="sh_import_journal_entry_boolean" invisible="1"/>
+                <field name="sh_technical_name" invisible="1"/>
+            </field>
+            <xpath expr="//group[@name='base_group']" position="after">
+                <div attrs="{'invisible':[('sh_import_journal_entry_boolean','=',False)]}">
+                    <group>
+                        <field name="sh_import_entry_type" widget="radio" />
+                        <field name="sh_import_entry_accounting_date" attrs="{'required':[('sh_technical_name','=','sh_import_journal_entry')]}" />
+                        <field name="sh_import_entry_journal_id" attrs="{'required':[('sh_technical_name','=','sh_import_journal_entry')]}" />
+                    </group>
+                    <group>
+                        <field name="sh_import_entry_partner_by" widget="radio" />
+                    </group>
+                    <footer attrs="{'invisible':[('sh_technical_name','!=','sh_import_journal_entry')]}">
+                        <button name="import_journal_entry_apply" string="Apply" type="object" class="btn-primary" />
+                        <button string="Cancel" class="btn-default" special="cancel" />
+    
+                        <div style="float: right;">
+                            <strong>Download Sample:</strong>
+                            <a
+                                role="button"
+                                href="/sh_all_in_one_import/static/csv/import_journal_entry.csv"
+                                class="btn-primary"
+                                style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;"
+                            >
+                                <i class="fa fa-download" /> CSV file
+                            </a>
+                            <a role="button" href="/sh_all_in_one_import/static/xls/import_journal_entry.xls" class="btn-primary" style="font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;">
+                                <i class="fa fa-download" /> Excel file
+                            </a>
+                        </div>
+                    </footer>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

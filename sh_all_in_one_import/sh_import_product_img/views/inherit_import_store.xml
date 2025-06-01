@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_product_image_inherit_form" model="ir.ui.view">
+        <field name="name">sh.import.product.image.inheirt.form</field>
+        <field name="model">sh.import.store</field>
+        <field name="inherit_id" ref="sh_import_base.sh_import_Store_form" />
+        <field name="arch" type="xml">
+            <field name="sh_file" position="after">
+                <field name="sh_import_product_img_boolean" invisible="1"/>
+            </field>
+            <xpath expr="//notebook/page[@name='import_fields']/group[@name='limit']" position="before">                
+                <group attrs="{'invisible':[('sh_import_product_img_boolean','=',False)]}">
+                    <field name="import_type" widget="radio" />
+                    <field name="product_by" widget="radio" />
+                    <field name="product_model" widget="radio" />
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

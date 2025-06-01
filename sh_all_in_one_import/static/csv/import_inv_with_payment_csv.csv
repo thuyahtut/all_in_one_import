@@ -1,0 +1,7 @@
+Number,Customer/Vendor,Invoice/Bill Date,Account,Product,Description,Ordered Qty,Unit of Measure,Unit Price,Taxes,Journal,Amount,Payment Date
+sh46,Azure Interior,2018-03-02,111,Acoustic Bloc Screens,Apple 1,1,Units,500,,Bank,750,2018-03-02
+sh46,,,222,Cabinet with Doors,Apple 2,1,Units,500,,,,
+sh46,,,333,Conference Chair (CONFIG),Apple 3,1,Units,500,,,,
+sh47,Brandon Freeman,2018-03-03,111,Acoustic Bloc Screens,Apple 4,1,Units,100,,Cash,150,2018-03-03
+sh47,,,222,Cabinet with Doors,Apple 5,1,Units,100,,,,
+sh47,,,333,Conference Chair (CONFIG),Apple 6,1,Units,100,,,,

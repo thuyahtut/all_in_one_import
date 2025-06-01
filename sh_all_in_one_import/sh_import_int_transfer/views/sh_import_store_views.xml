@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_int_transfer_inherit_form_view" model="ir.ui.view">
+        <field name="name">sh.import.store</field>
+        <field name="model">sh.import.store</field>
+        <field name="inherit_id" ref="sh_import_base.sh_import_Store_form" />
+        <field name="arch" type="xml">
+            <field name="sh_file" position="after">
+                <field name="sh_import_int_transfer_boolean" invisible="1"/>
+            </field>
+            <xpath expr="//notebook/page[@name='import_fields']/group[@name='limit']" position="before">
+                <group attrs="{'invisible':[('sh_import_int_transfer_boolean','=',False)]}">
+                    <group>
+                        <field name="sh_import_int_transfer_type" widget="radio" attrs="{'required':[('sh_import_int_transfer_boolean','=',True)]}" />
+                        <field name="sh_import_int_transfer_location_id" attrs="{'required':[('sh_import_int_transfer_boolean','=',True)]}" />
+                        <field name="sh_import_int_transfer_location_dest_id" attrs="{'required':[('sh_import_int_transfer_boolean','=',True)]}" />
+                        <field name="sh_import_int_transfer_scheduled_date" attrs="{'required':[('sh_import_int_transfer_boolean','=',True)]}" />
+                        <field name="sh_import_int_transfer_product_by" widget="radio" attrs="{'required':[('sh_import_int_transfer_boolean','=',True)]}" />
+                	</group>
+                </group>    
+            </xpath>
+        </field>
+    </record>
+</odoo>
