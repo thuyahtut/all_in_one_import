@@ -1,0 +1,7 @@
+Sales Order,Customer,Order Date,Salesperson,Product,Description,Ordered Qty,Unit of Measure,Unit Price,Taxes,Discount
+so1,Azure Interior,2018-08-25,,Acoustic Bloc Screens,abs desc,10,Units,5000,,5
+so1,,,,Cabinet with Doors,abs desc,20,Units,5001,,10
+so1,,,,Cable Management Box,abs desc,30,Units,5002,,15
+so2,The Jackson Group,2018-08-22,,Conference Chair,abs desc,1,Units,5003,,20
+so2,,,,Individual Workplace,abs desc,2,Units,5004,,25
+so2,,,,Drawer,abs desc,3,Units,5005,,30

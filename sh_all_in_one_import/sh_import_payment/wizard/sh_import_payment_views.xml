@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_payment_wizard" model="ir.ui.view">
+        <field name="name">sh.import.payment</field>
+        <field name="model">sh.import.payment</field>
+        <field name="arch" type="xml">
+            <form string="Import Payment">
+                <group>
+                	<group>
+						<field name="import_type" widget="radio" />
+	                    <field name="file" />
+	                    <field name="partner_by" widget="radio" />
+                	</group>
+                	<group>
+                		<field name="is_create_partner" />
+	                    <field name="is_confirm_payment" />
+	                    <field name="company_id" options="{'no_create': True}" groups="base.group_multi_company" />   
+                	</group>
+                </group>
+                <footer>
+                    <button name="import_payment_apply" string="Apply" type="object" class="btn-primary" />
+                    <button string="Cancel" class="btn-default" special="cancel" />
+
+                    <div class="mt-2" style="float: right;">
+                        <strong>Download Sample:</strong>
+                        <a
+                            role="button"
+                            href="/sh_all_in_one_import/static/csv/import_payment.csv"
+                            class="btn-primary"
+                            style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;"
+                        >
+                            <i class="fa fa-download" /> CSV file
+                        </a>
+                        <a
+                            role="button"
+                            href="/sh_all_in_one_import/static/xls/import_payment.xls"
+                            class="btn-primary"
+                            style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;"
+                        >
+                            <i class="fa fa-download" /> Excel file
+                        </a>
+                    </div>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="sh_import_payment_action" model="ir.actions.act_window">
+        <field name="name">Import Payment</field>
+        <field name="res_model">sh.import.payment</field>
+        <field name="view_id" ref="sh_import_payment_wizard" />
+        <field name="target">new</field>
+    </record>
+    <menuitem id="sh_import_payment_menu" name="Import Payments" parent="account.menu_finance_receivables" action="sh_import_payment_action" groups="sh_all_in_one_import.group_import_payment"/>
+</odoo>

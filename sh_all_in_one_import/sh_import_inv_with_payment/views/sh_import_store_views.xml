@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_inv_with_payment_inherit_form_view" model="ir.ui.view">
+        <field name="name">sh.import.store</field>
+        <field name="model">sh.import.store</field>
+        <field name="inherit_id" ref="sh_import_base.sh_import_Store_form" />
+        <field name="arch" type="xml">
+            <field name="sh_file" position="after">
+                <field name="sh_import_inv_with_payment_boolean" invisible="1"/>
+            </field>
+            <xpath expr="//notebook/page[@name='import_fields']/group[@name='limit']" position="before">
+                <group attrs="{'invisible':[('sh_import_inv_with_payment_boolean','=',False)]}">
+                    <group>
+                        <field name="sh_import_inv_with_payment_type" widget="radio" attrs="{'required':[('sh_import_inv_with_payment_boolean','=',True)]}" />
+                        <field name="sh_import_inv_with_payment_product_by" widget="radio" attrs="{'required':[('sh_import_inv_with_payment_boolean','=',True)]}" />
+                        <field name="sh_import_inv_with_payment_invoice_type" widget="radio" attrs="{'required':[('sh_import_inv_with_payment_boolean','=',True)]}" />
+                        <field name="sh_import_inv_with_payment_partner_by" widget="radio" />
+                    </group>
+                    <group>
+                        <field name="sh_import_inv_with_payment_account_option" widget="radio" />
+                        <field name="sh_import_inv_with_payment_is_validate" />
+                        <field name="sh_import_inv_with_payment_is_payment" attrs="{'invisible':[('sh_import_inv_with_payment_is_validate','=',False)]}"/>
+                        <field name="sh_import_inv_with_payment_payment_option" widget="radio" attrs="{'invisible':[('sh_import_inv_with_payment_is_payment','=',False)]}" />
+                        <field name="sh_import_inv_with_payment_write_off_account_id" attrs="{'invisible':[('sh_import_inv_with_payment_payment_option','=','partial')],'required':[('sh_import_inv_with_payment_payment_option','=','write_off')]}" />
+                        <field name="sh_import_inv_with_payment_inv_no_type" widget="radio" attrs="{'required':[('sh_import_inv_with_payment_boolean','=',True)]}" />
+                        <field name="total_done_inv_pmt" invisible="1"/>
+                        <field name="running_inv_pmt" invisible="1"/>
+                    </group>
+                </group>    
+            </xpath>
+        </field>
+    </record>
+</odoo>

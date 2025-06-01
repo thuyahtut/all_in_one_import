@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_product_temp_mb_inherit_form_view" model="ir.ui.view">
+        <field name="name">sh.import.store</field>
+        <field name="model">sh.import.store</field>
+        <field name="inherit_id" ref="sh_import_base.sh_import_Store_form" />
+        <field name="arch" type="xml">
+            <field name="sh_file" position="after">
+                <field name="sh_import_product_temp_mb_boolean" invisible="1"/>
+            </field>
+            <xpath expr="//notebook/page[@name='import_fields']/group[@name='limit']" position="before">                
+                <group attrs="{'invisible':[('sh_import_product_temp_mb_boolean','=',False)]}">
+                    <field name="sh_import_product_tmpl_mb_type" widget="radio" />
+                    <field name="sh_import_product_tmpl_mb_method" widget="radio"></field>
+                    <field name="sh_import_product_tmpl_mb_product_update_by" widget="radio" />
+                    <field name="sh_import_product_tmpl_mb_update_existing" attrs="{'invisible':[('sh_import_product_tmpl_mb_method','=','create')]}" />
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

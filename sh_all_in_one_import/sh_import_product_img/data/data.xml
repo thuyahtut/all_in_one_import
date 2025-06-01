@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="import_demo_rec_1" model="sh.import.base">
+            <field name="name">Import Product Images from Excel (from Path and URL)</field>
+            <field name="sh_technical_name">sh_import_product_img</field>
+            <field name="sh_image_name">fa fa-address-book-o</field>
+        </record>
+    </data>
+</odoo>

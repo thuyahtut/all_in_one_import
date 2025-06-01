@@ -1,0 +1,6 @@
+Unique Identification,Name,Can be Sold?,Can be Purchased?,Product Type,Category,Unit of Measure,Purchase Unit of Measure,Customer Taxes,Vendor Taxes,Description for Customers,Invoicing Policy,Sales Price,Cost,variant Attributes,Attribute Values,Internal Reference,Barcode,Weight,Volume,Qty On Hand,Image path/url,Multi Barcodes,Variant Cost Price
+1,Collar T-Shirt,TRUE,FALSE,Storable Product,All,Units,Units,,,Collar T-Shirt description,Delivered quantities,50,25,"color2,size,style",Red@50#S@25#Collar@10,red_s_size_collar,,1,2,,,"red001,red002",110
+1,Collar T-Shirt,TRUE,FALSE,Storable Product,All,Units,Units,,,,,,,"color2,size,style",Blue@50#XXL@50#Collar@10,blue_m_size_collar,,3,4,,,"bule001,blue002",111
+1,Collar T-Shirt,TRUE,FALSE,Storable Product,All,Units,Units,,,,,,,"color2,size,style",Red@50#XXL@25#Collar@10,red_xxl_size_collar,,,,,,"red003,red004",112
+1,Collar T-Shirt,TRUE,FALSE,Storable Product,All,Units,Units,,,,,,,"color2,size,style",Blue@50#S@50#Collar@10,blue_s_size_collar,,,,,,"blue003,blue004",113
+2,T-shirt,TRUE,FALSE,Storable Product,All,Units,Units,,,Neck T-Shirt description,Delivered quantities,55,78,,,only_t_shirt,,,,,,,

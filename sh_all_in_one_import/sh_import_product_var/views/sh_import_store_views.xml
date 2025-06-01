@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_product_var_inherit_form_views" model="ir.ui.view">
+        <field name="name">sh.import.store</field>
+        <field name="model">sh.import.store</field>
+        <field name="inherit_id" ref="sh_import_base.sh_import_Store_form" />
+        <field name="arch" type="xml">
+            <field name="sh_file" position="after">
+                <field name="sh_import_product_var_boolean" invisible="1"/>
+            </field>
+            <xpath expr="//notebook//page[@name='import_fields']//group[@name='limit']" position="before">         
+                <group attrs="{'invisible':[('sh_import_product_var_boolean','=',False)]}">       
+                <!-- <group> -->
+                    <field name="import_type" widget="radio" />
+                    <field name="method" widget="radio"></field>
+                    <field name="product_update_by" widget="radio" />
+                    <field name="is_create_m2m_record" />
+                    <field name="is_create_categ_id_record" />
+                    <field name="total_done_tmpl" invisible="1"/>
+                    <field name="running_tmpl" invisible="1"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>

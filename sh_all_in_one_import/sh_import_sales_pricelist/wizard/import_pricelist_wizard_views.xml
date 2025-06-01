@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_pricelist_wizard" model="ir.ui.view">
+        <field name="name">sh.import.sale.pricelist</field>
+        <field name="model">sh.import.sale.pricelist</field>
+        <field name="arch" type="xml">
+            <form string="Import Pricelist">
+                <group>
+                    <group>
+                        <field name="import_type" widget="radio" />
+                    </group>
+                    <group>
+                        <field name="import_by" widget="radio" />
+                    </group>
+                    <group>
+                        <field name="product_by" widget="radio"
+                            attrs="{'invisible':[('sh_applied_on','=','2_product_category')]}" />
+                    </group>
+                </group>
+                <group>
+                    <group string="All Products">
+                        <field name="sh_applied_on" widget="radio" />
+                    </group>
+                    <group string="Price Computation">
+                        <field name="sh_compute_price" widget="radio" />
+                    </group>
+                </group>
+                <group>
+                    <group>
+                        <field name="sh_country_group_ids" widget="many2many_tags" />
+                    </group>
+                    <group>
+                        <field name="sh_base"
+                            attrs="{'invisible':[('sh_compute_price','!=','formula')],'required':[('sh_compute_price','=','formula')]}" />
+                    </group>
+                </group>
+                <group>
+                    <group>
+                        <field name="file" />
+                    </group>
+                    <group>
+                        <field name="company_id" groups="base.group_multi_company" />
+                    </group>
+                </group>
+                <footer>
+                    <button name="import_pricelist_apply" string="Apply" type="object"
+                        class="btn-primary" />
+                    <button string="Cancel" class="btn-default" special="cancel" />
+
+                    <div style="float: right;">
+                        <strong>Download
+                            Sample:</strong>
+                        <a href="/sh_all_in_one_import/static/csv/import_pricelist.csv"
+                            role="button" class="btn-primary"
+                            style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;">
+                            <i class="fa fa-download" /> Pricelist CSV file </a>
+                        <a href="/sh_all_in_one_import/static/xls/import_pricelist.xlsx"
+                            role="button" class="btn-primary"
+                            style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;">
+                            <i class="fa fa-download" /> Pricelist Excel file </a>
+                    </div>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="sh_product_variant_view" model="ir.ui.view">
+        <field name="name">product.product</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_product_tree_view" />
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="sh_display_name" invisible="1" />
+            </field>
+        </field>
+    </record>
+    <record id="sh_import_pricelist_action" model="ir.actions.act_window">
+        <field name="name">Import Pricelist</field>
+        <field name="res_model">sh.import.sale.pricelist</field>
+        <field name="view_id" ref="sh_import_pricelist_wizard" />
+        <field name="target">new</field>
+    </record>
+    <menuitem id="sh_import_pricelist_menu" name="Import Pricelists"
+        parent="sale.product_menu_catalog" action="sh_import_pricelist_action"
+        groups="sh_all_in_one_import.group_import_sales_pricelist" />
+</odoo>

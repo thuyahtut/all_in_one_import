@@ -1,0 +1,4 @@
+Code,Name,Type,Default Taxes,Tags,Group,Allow Reconciliation,Deprecated
+111,Softhealer Account 1,Income,"Zero rated sales,Exempt sales","Operating Activities,Financing Activities",Group 1,TRUE,TRUE
+222,Softhealer Account 2,Fixed Assets,Lower rate sales (20%),"Operating Activities,Financing Activities",Group 1,FALSE,FALSE
+333,Softhealer Account 3,Other Income,"Zero rated sales,Exempt sales","Operating Activities,Financing Activities",Group 1,TRUE,TRUE

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>    
+    <menuitem name="Import Expense" action="sh_import_expense_action" id="sh_import_expense_menu" parent="hr_expense.menu_hr_expense_reports" groups="sh_all_in_one_import.sh_import_hr_expense_group" sequence="2" />
+</odoo>

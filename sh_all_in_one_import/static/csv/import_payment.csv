@@ -1,0 +1,3 @@
+Payment Type,Partner Type,Customer/Vendor,Destination Account,Journal,Date,Memo,Amount,Currency
+Send Money,Customer,Azure Interior,110000,Bank,2021-08-17,ABC111,3000,EUR
+Receive Money,Vendor,Deco Addict,210000,Cash,2021-08-18,DEF222,4000,USD

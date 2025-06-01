@@ -1,0 +1,5 @@
+Unique Identification,Reference,Account Code,Partner,Label,Analytic Tags,Debit,Credit,Taxes,Accounting Date
+1,Entry 1,001000,Azure Interior,Label 1,"Tag 1,Tag 2",0,100,"Lower rate sales (5%),Standard rate sales (20%)",2015-02-04
+1,,001100,Azure Interior,Label 2,"Tag 1,Tag 2",100,0,"Lower rate sales (5%),Standard rate sales (20%)",
+2,Entry 2,001000,Deco Addict,Lebel 1,"Tag 3,Tag 4",0,200,"Lower rate sales (5%),Standard rate sales (20%)",2016-08-09
+2,,001100,Deco Addict,Label 2,"Tag 3,Tag 4",200,0,"Lower rate sales (5%),Standard rate sales (20%)",

@@ -1,0 +1,6 @@
+Purchase Order,Vendor,Order Date,Scheduled Date,Product,Description,Ordered Qty,Unit of Measure,Unit Price,Taxes,Scheduled Date,Currency
+po1,Azure Interior,2018-08-25,2018-12-21,Acoustic Bloc Screens,Acoustic Bloc Screens,10,Units,5000,,2018-10-21,AUD
+po1,,,,Cabinet with Doors,Cabinet with Doors,20,Units,5001,,2018-11-21,
+po1,,,,Cable Management Box,Cable Management Box,30,Units,5002,,2018-12-21,
+po2,Ready Mat,2018-08-22,,Conference Chair,Conference Chair,1,Units,5003,,,USD
+po2,,,,Individual Workplace,Individual Workplace,2,Units,5004,,,

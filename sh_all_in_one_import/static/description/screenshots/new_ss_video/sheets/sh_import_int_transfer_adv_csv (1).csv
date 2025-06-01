@@ -1,0 +1,4 @@
+Source Location,Destination Location,Product,Done Qty,UoM
+WH/Stock,WH/Stock/Shelf 2,FURN_6666,5,Units
+WH/Stock,WH/Stock/shelf 1,E-COM11,7,Units
+WH/Stock,WH/Stock/Shelf 2,E-COM11,5,Units

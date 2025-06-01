@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_move_form_view" model="ir.ui.view">
+        <field name="name">stock.move</field>
+        <field name="model">stock.move</field>
+        <field name="inherit_id" ref="stock.view_stock_move_operations" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='sequence']" position="before">
+                <header>
+                    <button name="action_import_lot_serial" string="Import Lot/Serial" type="object" class="oe_highlight" groups="sh_all_in_one_import.group_import_lot_serial_picking" />
+                </header>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sh_import_lot_serial_picking_wizard" model="ir.ui.view">
+        <field name="name">sh.import.lot.serial.picking</field>
+        <field name="model">sh.import.lot.serial.picking</field>
+        <field name="arch" type="xml">
+            <form string="Import Lot/Serial">
+                <group>
+                    <field name="import_type" widget="radio" />
+                    <field name="file" />
+                    <field name="lot_type" widget="radio" />
+                    <field name="display_is_create_lot" invisible="1"/>
+                    <field name="is_create_lot" attrs="{'invisible':[('display_is_create_lot','=',True)]}"/>
+                </group>
+                <footer>
+                    <button name="import_lot_serial_apply" string="Apply" type="object" class="btn-primary" />
+                    <button string="Cancel" class="btn-default" special="cancel" />
+
+                    <div style="float: right;">
+                        <strong>Download Sample:</strong>
+                        <a
+                            role="button"
+                            href="/sh_all_in_one_import/static/csv/sh_import_lot_csv.csv"
+                            class="btn-primary"
+                            style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;"
+                        >
+                            <i class="fa fa-download" /> Lot/Serial CSV file
+                        </a>
+                        <a
+                            role="button"
+                            href="/sh_all_in_one_import/static/xls/sh_import_lot_xls.xls"
+                            class="btn-primary"
+                            style="margin: 0 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; padding: 8px 10px; color: #ffffff;"
+                        >
+                            <i class="fa fa-download" /> Lot/Serial Excel file
+                        </a>
+                    </div>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="sh_import_lot_serial_action" model="ir.actions.act_window">
+        <field name="name">Import Lot/Serial</field>
+        <field name="res_model">sh.import.lot.serial.picking</field>
+        <field name="view_id" ref="sh_import_lot_serial_picking_wizard" />
+        <field name="target">new</field>
+    </record>
+</odoo>

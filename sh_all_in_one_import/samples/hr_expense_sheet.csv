@@ -1,0 +1,3 @@
+ID,Expense Sheet Summary,Employee/Work Email/Work Phone,Manager,Description,Product/Internal Ref/Barcode,Unit Price,Quantity,Bill Refrence,Date,Account,Currency,Paid By,Note
+1,Test,Keith Byrd,Marc Demo,Dinner,Hotel Accommodation,456,1,BOM44,2021-11-11,600000,USD,Employee,Was worth Chatting good businness ahead
+1,,,,Travelling,Air Flight,11,2,,,600000,GBP,Company,

@@ -1,0 +1,7 @@
+Number,Customer/Vendor,Invoice/Bill Date,Account,Product,Description,Ordered Qty,Unit of Measure,Unit Price,Taxes
+sh1,Azure Interior,2018-03-02,111,Acoustic Bloc Screens,Apple 1,10,Units,5000,
+sh1,,,222,Cabinet with Doors,Apple 2,20,Units,5001,
+sh1,,,333,Conference Chair (CONFIG),Apple 3,30,Units,5002,
+sh2,Deco Addict,2018-03-03,111,Acoustic Bloc Screens,Apple 4,1,Units,5003,
+sh2,,,222,Cabinet with Doors,Apple 5,2,Units,5004,
+sh2,,,333,Conference Chair (CONFIG),Apple 6,3,Units,5005,

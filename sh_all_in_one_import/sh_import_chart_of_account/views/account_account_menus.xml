@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- ACCOUNT INVOICE SIDE MENU -->
+    <menuitem action="sh_import_coa_action" name="Import Chart of Account" id="menu_action_import_coa" parent="account.menu_finance_receivables" groups="sh_all_in_one_import.sh_import_coa_group" sequence="3" />
+</odoo>

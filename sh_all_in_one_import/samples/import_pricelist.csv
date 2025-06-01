@@ -1,0 +1,4 @@
+Unique Identification,Name,Category/Product/Product Variant,Minimum Quantity,Start Date,End Date,Fixed Price,Percentage Price,Rounding Method,Price Discount,Minimum Margin,Max Margin,Price Surcharge,Other Pricelist
+1,Pricelist 1,FURN_6666,10,2021-01-25,2021-01-26,150,10,25,20,5,10,500,Public Pricelist
+1,,E-COM11,20,2021-01-26,2021-01-27,151,11,26,21,6,11,501,Public Pricelist
+2,Pricelist 2,FURN_6666,21,2021-01-27,2021-01-28,152,12,27,22,7,12,502,Public Pricelist

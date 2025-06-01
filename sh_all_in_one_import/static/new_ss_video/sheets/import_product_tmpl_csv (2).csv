@@ -1,0 +1,5 @@
+Name,Can be Sold?,Can be Purchased?,Product Type,Category,Internal Reference,Barcode,Sales Price,Cost,Unit of Measure,Purchase Unit of Measure,Weight,Volume,Customer Taxes,Vendor Taxes,Invoicing Policy,Description for Customers,Quantity On Hand,image path/url
+Apple,TRUE,FALSE,Stockable Product,All,apple_int_ref,Apple001,20,21,,,25,26,,,,Apple is fruit Product,,https://www.runscope.com/static/img/public/customer-portrait-uship.png
+Banana,TRUE,FALSE,Stockable Product,All,banana_int_ref,Banana001,30,31,,,35,36,,,,Banana is fruit Product,,
+Car,TRUE,FALSE,Stockable Product,All,car_int_ref,Car001,40,41,,,45,46,,,,Car is Vehicle Product,,
+Doll,TRUE,FALSE,Stockable Product,All,doll_int_ref,Doll001,50,51,,,55,56,,,,Doll is toy Product,,

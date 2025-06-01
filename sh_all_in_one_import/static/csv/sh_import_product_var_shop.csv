@@ -1,0 +1,12 @@
+Unique Identification,Name,Can be Sold?,Can be Purchased?,Product Type,Category,Ecommerce Categories,Unit of Measure,Purchase Unit of Measure,Customer Taxes,Vendor Taxes,Description for Customers,Invoicing Policy,Sales Price,Cost,Extra Product Media,Is Published,variant Attributes,Attribute Values,Internal Reference,Barcode,Weight,Volume,Qty On Hand,Image path/url,Extra Variant Media,Variant Cost Price
+1,Collar T-Shirt,TRUE,FALSE,Storable Product,All / Saleable / Office Furniture,"Components,Boxes,Cabinets",Dozens,Dozens,"Standard rate sales (20%),Sales to customers in EC,",Zero rated purchases,Collar T-Shirt description,Delivered quantities,50,25,"https://images-na.ssl-images-amazon.com/images/I/91JSVxly7aL._UL1500_.jpg,
+https://images-na.ssl-images-amazon.com/images/I/81UQH-4MP5L._UL1500_.jpg,
+https://images-na.ssl-images-amazon.com/images/I/71lMbsLigxL._UL1500_.jpg",TRUE,"color2,size,style",Red@50#S@25#Collar@10,red_s_collar,,1,2,10,https://i.pinimg.com/originals/33/ed/7f/33ed7f9cfde40c9ebc21f5d7ccf42e29.png,"https://images-na.ssl-images-amazon.com/images/I/81DuycYl7ZL._UL1500_.jpg,
+https://images-na.ssl-images-amazon.com/images/I/91l8TLt35DL._UL1500_.jpg,
+https://images-na.ssl-images-amazon.com/images/I/91w7tu5vP2L._UL1500_.jpg,
+https://images-na.ssl-images-amazon.com/images/I/71M5NQUIKYL._UL1500_.jpg,
+https://images-na.ssl-images-amazon.com/images/I/51cqY-bQsUL.jpg",10
+1,Collar T-Shirt,,,,,,,,,,,,,,,,"color2,size,style",Blue@50#XXL@50#Collar@10,blue_m_collar,,3,4,20,https://4.imimg.com/data4/YT/TC/MY-12041309/plain-t-shirt-500x500.png,,20
+2,Neck T-Shirt,TRUE,TRUE,Storable Product,All / Saleable / Software,Chairs,Dozens,Dozens,"Standard rate sales (20%),Sales to customers in EC,",Zero rated purchases,Neck T-Shirt description,Delivered quantities,100,50,,,"color,size,style",Red@50#S@25#Neck@20,red_s_neck,,5,6,30,https://4.imimg.com/data4/YT/TC/MY-12041309/plain-t-shirt-500x500.png,,30
+2,Neck T-Shirt,,,,,,,,,,,,,,,,"color,size,style",Blue@100#M@50#Neck@10,blue_m_neck,,7,8,40,https://284859-881315-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/02/navyblue-plain-fullsleeve-adimanavdotcom-570x710.jpg,https://img.icons8.com/color/2x/customer-insight.png,40
+3,Collar T-Shirt,,,,,Lamps,,,,,,,,,"https://img.icons8.com/cute-clipart/2x/key.png,https://img.icons8.com/bubbles/2x/key.png,https://img.icons8.com/fluent/2x/key.png",,,,simple_collar_t_shirt,,,,,,"https://img.icons8.com/cute-clipart/2x/key.png,https://img.icons8.com/bubbles/2x/key.png,https://img.icons8.com/fluent/2x/key.png",

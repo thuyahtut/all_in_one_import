@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem name="Import Images from Zip File eCommerce" action="sh_import_img_zip_shop_action" id="sh_import_img_zip_shop_menuitem" parent="website_sale.menu_catalog" sequence="10" groups="sh_import_img_zip_shop_group" />
+</odoo>
